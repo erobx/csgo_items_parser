@@ -231,10 +231,10 @@ class ItemsParser(Thread):
 
                 for variant in variants:
                     results[variant] = {
-                        "item": item.asdict(),
+                        #"item": item.asdict(),
                         "paintkit": paintkit.asdict(),
                         "collection": None if collection is None else collection.asdict(),
-                        "lootlist": None if lootlist is None else lootlist.asdict()
+                        #"lootlist": None if lootlist is None else lootlist.asdict()
                     }
 
         return results
