@@ -376,14 +376,10 @@ class ItemsManager():
         self.parse_colors()
         self.parse_qualities()
         self.parse_rarities()
-        self.parse_graffiti_tints()
         self.parse_prefabs()
         self.parse_attributes()
         self.parse_items()
-        self.parse_stickerkits()
         self.parse_paintkits()
-        self.parse_musickits()
-        self.parse_lootlists()
         self.parse_collections()
 
     # -------------------------------------- GETTERS -------------------------------------- #

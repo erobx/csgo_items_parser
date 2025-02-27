@@ -12,6 +12,6 @@ class Collection(Base):
         return {
             "codename": self.codename,
             "name_tag": self.name_tag,
-            "items": self.items,
-            "crates": [crate.asdict() for crate in self.crates]
+            #"items": self.items,
+            #"crates": [crate.asdict() for crate in self.crates]
         }

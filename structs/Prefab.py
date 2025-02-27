@@ -18,9 +18,9 @@ class Prefab(Base):
         return {
             "codename": self.codename,
             "name_tag": self.name_tag,
-            "attributes": self.attributes,
+            #"attributes": self.attributes,
             "tags": self.tags,
-            "quality": None if self.quality is None else self.quality.asdict(),
-            "rarity": None if self.rarity is None else self.rarity.asdict(),
-            "prefab": None if self.prefab is None else self.prefab.asdict()
+            #"quality": None if self.quality is None else self.quality.asdict(),
+            #"rarity": None if self.rarity is None else self.rarity.asdict(),
+            #"prefab": None if self.prefab is None else self.prefab.asdict()
         }
